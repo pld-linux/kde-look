@@ -1,7 +1,7 @@
 Summary:	www.kde-look.org resources
 Summary(pl):	Zasoby www.kde-look.org
 Name:		kde-look
-Version:	0.1
+Version:	1
 Release:	1
 License:	GPL?
 Group:		Themes
@@ -17,6 +17,9 @@ Source2:	http://www.kde-look.org/content/files/3515-iceage_kde_800.jpg
 # Source2-md5:	a9321df50b87c1be5579beba8b906f6d
 
 # Wallpapers 1024x768
+# Other
+Source5:	http://www.kde-look.org/content/files/15000-Unwetterhimmel.jpg
+# Source5-md5:	0c3cf1c13486159b5ebc7c2070c1a1d4
 # TUX
 Source3:	http://www.kde-look.org/content/files/10434-tuxwinv02.tgz
 # Source3-md5:	7ea1d4429a057073eb80015addcd0321
@@ -46,6 +49,19 @@ Requires:	kdelibs
 
 %description wallpapers-other-800x600 -l pl
 Tapety w rozdzielczo¶ci 800x600.
+
+%package wallpapers-other-1024x768
+Summary:	Wallpapers
+Summary(pl):	Tapety
+Group:		Themes
+Requires:	kdelibs
+
+%description wallpapers-other-1024x768
+1024x768 resolution wallpapers.
+
+%description wallpapers-other-1024x768 -l pl
+Tapety w rozdzielczo¶ci 1024x768.
+
 
 #KDE
 %package wallpapers-kde-800x600
@@ -122,6 +138,7 @@ install -d %{destdir}
 
 cp %{SOURCE0} %{destdir}/Other-qubiq-room-800x600.jpg
 cp %{SOURCE1} %{destdir}/Other-Linux-electron-800x600.jpg
+cp %{SOURCE5} %{destdir}/Other-Unwetterhimmel-1024x768.jpg
 
 cp %{SOURCE2} %{destdir}/KDE-IceAge-800x600.jpg
 
@@ -131,6 +148,7 @@ cp tuxwinv02/*1600x1200* %{destdir}/TUX-tuxwin-1600x1200.jpg
 
 cp %{SOURCE4} %{destdir}/PLD-green-1024x768.jpg
 
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
@@ -139,6 +157,10 @@ rm -rf $RPM_BUILD_ROOT
 %files wallpapers-other-800x600
 %defattr(644,root,root,755)
 %{_datadir}/wallpapers/Other-*-800x600.jpg
+
+%files wallpapers-other-1024x768
+%defattr(644,root,root,755)
+%{_datadir}/wallpapers/Other-*-1024x768.jpg
 
 #KDE
 %files wallpapers-kde-800x600
