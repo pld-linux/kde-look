@@ -3,7 +3,7 @@ Summary(pl):	Zasoby www.kde-look.org
 Name:		kde-look
 Version:	1
 Release:	1
-License:	GPL?
+License:	GPL (?)
 Group:		Themes
 
 # Wallpapers 800x600
