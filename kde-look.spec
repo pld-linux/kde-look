@@ -27,14 +27,14 @@ Source3:	http://www.kde-look.org/content/files/10434-tuxwinv02.tgz
 Source4:	http://www.kde-look.org/content/files/12955-pld-greenwallpaper.png
 # Source4-md5:	0637c81dc2f3e91f5751d028b86e7d80
 
-URL:		http://www.kde-look.org
+URL:		http://www.kde-look.org/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 www.kde-look.org resources.
 
 %description -l pl
-Zasoby www.kde-look.org
+Zasoby www.kde-look.org .
 
 #Wallpapers
 #Other
@@ -61,7 +61,6 @@ Requires:	kdelibs
 
 %description wallpapers-other-1024x768 -l pl
 Tapety w rozdzielczo¶ci 1024x768.
-
 
 #KDE
 %package wallpapers-kde-800x600
@@ -126,7 +125,6 @@ Requires:	kdelibs
 %description wallpapers-pld-1024x768 -l pl
 Tapety w rozdzielczo¶ci 1024x768.
 
-
 %prep
 %setup -Tc -n %{name}-%{version} -b3
 
@@ -147,7 +145,6 @@ cp tuxwinv02/*1280x1024* %{destdir}/TUX-tuxwin-1280x1024.jpg
 cp tuxwinv02/*1600x1200* %{destdir}/TUX-tuxwin-1600x1200.jpg
 
 cp %{SOURCE4} %{destdir}/PLD-green-1024x768.jpg
-
 
 %clean
 rm -rf $RPM_BUILD_ROOT
