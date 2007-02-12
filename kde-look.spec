@@ -1,5 +1,5 @@
 Summary:	www.kde-look.org resources
-Summary(pl):	Zasoby www.kde-look.org
+Summary(pl.UTF-8):   Zasoby www.kde-look.org
 Name:		kde-look
 Version:	1
 Release:	1
@@ -33,97 +33,97 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 www.kde-look.org resources.
 
-%description -l pl
+%description -l pl.UTF-8
 Zasoby www.kde-look.org .
 
 #Wallpapers
 #Other
 %package wallpapers-other-800x600
 Summary:	Wallpapers
-Summary(pl):	Tapety
+Summary(pl.UTF-8):   Tapety
 Group:		Themes
 Requires:	kdelibs
 
 %description wallpapers-other-800x600
 800x600 resolution wallpapers.
 
-%description wallpapers-other-800x600 -l pl
-Tapety w rozdzielczo∂ci 800x600.
+%description wallpapers-other-800x600 -l pl.UTF-8
+Tapety w rozdzielczo≈õci 800x600.
 
 %package wallpapers-other-1024x768
 Summary:	Wallpapers
-Summary(pl):	Tapety
+Summary(pl.UTF-8):   Tapety
 Group:		Themes
 Requires:	kdelibs
 
 %description wallpapers-other-1024x768
 1024x768 resolution wallpapers.
 
-%description wallpapers-other-1024x768 -l pl
-Tapety w rozdzielczo∂ci 1024x768.
+%description wallpapers-other-1024x768 -l pl.UTF-8
+Tapety w rozdzielczo≈õci 1024x768.
 
 #KDE
 %package wallpapers-kde-800x600
 Summary:	Wallpapers
-Summary(pl):	Tapety
+Summary(pl.UTF-8):   Tapety
 Group:		Themes
 Requires:	kdelibs
 
 %description wallpapers-kde-800x600
 800x600 resolution wallpapers.
 
-%description wallpapers-kde-800x600 -l pl
-Tapety w rozdzielczo∂ci 800x600.
+%description wallpapers-kde-800x600 -l pl.UTF-8
+Tapety w rozdzielczo≈õci 800x600.
 
 #TUX
 %package wallpapers-tux-1024x768
 Summary:	Wallpapers
-Summary(pl):	Tapety
+Summary(pl.UTF-8):   Tapety
 Group:		Themes
 Requires:	kdelibs
 
 %description wallpapers-tux-1024x768
 1024x768 resolution wallpapers.
 
-%description wallpapers-tux-1024x768 -l pl
-Tapety w rozdzielczo∂ci 1024x768.
+%description wallpapers-tux-1024x768 -l pl.UTF-8
+Tapety w rozdzielczo≈õci 1024x768.
 
 %package wallpapers-tux-1280x1024
 Summary:	Wallpapers
-Summary(pl):	Tapety
+Summary(pl.UTF-8):   Tapety
 Group:		Themes
 Requires:	kdelibs
 
 %description wallpapers-tux-1280x1024
 1280x1024 resolution wallpapers.
 
-%description wallpapers-tux-1280x1024 -l pl
-Tapety w rozdzielczo∂ci 1280x1024.
+%description wallpapers-tux-1280x1024 -l pl.UTF-8
+Tapety w rozdzielczo≈õci 1280x1024.
 
 %package wallpapers-tux-1600x1200
 Summary:	Wallpapers
-Summary(pl):	Tapety
+Summary(pl.UTF-8):   Tapety
 Group:		Themes
 Requires:	kdelibs
 
 %description wallpapers-tux-1600x1200
 1600x1200 resolution wallpapers.
 
-%description wallpapers-tux-1600x1200 -l pl
-Tapety w rozdzielczo∂ci 1600x1200.
+%description wallpapers-tux-1600x1200 -l pl.UTF-8
+Tapety w rozdzielczo≈õci 1600x1200.
 
 #PLD
 %package wallpapers-pld-1024x768
 Summary:	Wallpapers
-Summary(pl):	Tapety
+Summary(pl.UTF-8):   Tapety
 Group:		Themes
 Requires:	kdelibs
 
 %description wallpapers-pld-1024x768
 1024x768 resolution wallpapers.
 
-%description wallpapers-pld-1024x768 -l pl
-Tapety w rozdzielczo∂ci 1024x768.
+%description wallpapers-pld-1024x768 -l pl.UTF-8
+Tapety w rozdzielczo≈õci 1024x768.
 
 %prep
 %setup -Tc -n %{name}-%{version} -b3
