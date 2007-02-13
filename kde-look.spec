@@ -1,5 +1,5 @@
 Summary:	www.kde-look.org resources
-Summary(pl.UTF-8):   Zasoby www.kde-look.org
+Summary(pl.UTF-8):	Zasoby www.kde-look.org
 Name:		kde-look
 Version:	1
 Release:	1
@@ -40,7 +40,7 @@ Zasoby www.kde-look.org .
 #Other
 %package wallpapers-other-800x600
 Summary:	Wallpapers
-Summary(pl.UTF-8):   Tapety
+Summary(pl.UTF-8):	Tapety
 Group:		Themes
 Requires:	kdelibs
 
@@ -52,7 +52,7 @@ Tapety w rozdzielczości 800x600.
 
 %package wallpapers-other-1024x768
 Summary:	Wallpapers
-Summary(pl.UTF-8):   Tapety
+Summary(pl.UTF-8):	Tapety
 Group:		Themes
 Requires:	kdelibs
 
@@ -65,7 +65,7 @@ Tapety w rozdzielczości 1024x768.
 #KDE
 %package wallpapers-kde-800x600
 Summary:	Wallpapers
-Summary(pl.UTF-8):   Tapety
+Summary(pl.UTF-8):	Tapety
 Group:		Themes
 Requires:	kdelibs
 
@@ -78,7 +78,7 @@ Tapety w rozdzielczości 800x600.
 #TUX
 %package wallpapers-tux-1024x768
 Summary:	Wallpapers
-Summary(pl.UTF-8):   Tapety
+Summary(pl.UTF-8):	Tapety
 Group:		Themes
 Requires:	kdelibs
 
@@ -90,7 +90,7 @@ Tapety w rozdzielczości 1024x768.
 
 %package wallpapers-tux-1280x1024
 Summary:	Wallpapers
-Summary(pl.UTF-8):   Tapety
+Summary(pl.UTF-8):	Tapety
 Group:		Themes
 Requires:	kdelibs
 
@@ -102,7 +102,7 @@ Tapety w rozdzielczości 1280x1024.
 
 %package wallpapers-tux-1600x1200
 Summary:	Wallpapers
-Summary(pl.UTF-8):   Tapety
+Summary(pl.UTF-8):	Tapety
 Group:		Themes
 Requires:	kdelibs
 
@@ -115,7 +115,7 @@ Tapety w rozdzielczości 1600x1200.
 #PLD
 %package wallpapers-pld-1024x768
 Summary:	Wallpapers
-Summary(pl.UTF-8):   Tapety
+Summary(pl.UTF-8):	Tapety
 Group:		Themes
 Requires:	kdelibs
 
