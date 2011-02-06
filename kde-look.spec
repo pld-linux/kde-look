@@ -131,6 +131,8 @@ Tapety w rozdzielczości 1024x768.
 %build
 
 %install
+rm -rf $RPM_BUILD_ROOT
+
 %define destdir $RPM_BUILD_ROOT%{_datadir}/wallpapers
 install -d %{destdir}
 
